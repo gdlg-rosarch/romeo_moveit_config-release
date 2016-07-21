@@ -1,0 +1,71 @@
+ros-jade-romeo-moveit-config (0.2.7-0trusty) trusty; urgency=high
+
+  * Update package.xml
+    removing the dependence on moveit_ros_visualization
+  * Update package.xml
+    changing the maintainer
+  * Update ompl_planning.yaml
+    fixing arm groups
+  * Merge pull request #5 <https://github.com/ros-aldebaran/romeo_moveit_config/issues/5> from nlyubova/master
+    cleaning the launch file and readme
+  * updating the tutorial
+  * renaming demo_real.launch to moveit_planner.launch to keep the naming convention as fro Nao
+  * using xacro command instead of the URDF file
+  * Contributors: Natalia Lyubova, nlyubova
+
+ -- Natalia Lyubova <natalia.lyubova@gmail.com>  Wed, 20 Jul 2016 22:00:00 -0000
+
+ros-jade-romeo-moveit-config (0.2.6-0trusty) trusty; urgency=high
+
+  * update dependency list
+  * Contributors: Mikael Arguedas
+
+ -- Vincent Rabaud <vincent.rabaud@gmail.com>  Tue, 02 Feb 2016 23:00:00 -0000
+
+ros-jade-romeo-moveit-config (0.2.5-0trusty) trusty; urgency=high
+
+  * cleaning package.xml
+  * Configuring sensors to compute the Octomap
+  * Regenerated with moveit_setup_assistant for the last URDF while naming planning groups to be compatible with romeo_moveit_config
+  * configuring end-effectors and renaming motor groups to be compatible with MoveIt simple grasps
+  * Contributors: Natalia Lyubova, Vincent Rabaud
+
+ -- Vincent Rabaud <vincent.rabaud@gmail.com>  Tue, 20 Oct 2015 22:00:00 -0000
+
+ros-jade-romeo-moveit-config (0.2.4-0trusty) trusty; urgency=high
+
+  * fixed package version
+  * Update package.xml
+  * 0.2.1
+  * update changelog
+  * fixed link to config file
+  * adapt to new model link names
+    add detection required files
+  * Contributors: Arguedas Mikael, Mikael ARGUEDAS
+  * fixed link to config file
+  * adapt to new model link names
+    add detection required files
+  * Contributors: Mikael ARGUEDAS
+
+ -- Vincent Rabaud <vincent.rabaud@gmail.com>  Thu, 04 Dec 2014 23:00:00 -0000
+
+ros-jade-romeo-moveit-config (0.2.2-0trusty) trusty; urgency=high
+
+  * added kinematics chains for complete arms
+  * Update README.rst
+  * fix dependencies
+  * fixed dependencies and update README
+  * Contributors: Arguedas Mikael, margueda
+
+ -- Vincent Rabaud <vincent.rabaud@gmail.com>  Tue, 30 Sep 2014 22:00:00 -0000
+
+ros-jade-romeo-moveit-config (0.2.1-0trusty) trusty; urgency=high
+
+  * update according to new URDF model
+  * add a README file
+  * add initial working config files
+  * Contributors: Vincent Rabaud, margueda
+
+ -- Vincent Rabaud <vincent.rabaud@gmail.com>  Mon, 08 Sep 2014 22:00:00 -0000
+
+
