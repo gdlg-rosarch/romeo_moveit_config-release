@@ -1,0 +1,12 @@
+Source: ros-jade-romeo-moveit-config
+Section: misc
+Priority: extra
+Maintainer: Natalia Lyubova <natalia.lyubova@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-jade-catkin
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-jade-romeo-moveit-config
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jade-joint-state-publisher, ros-jade-moveit-fake-controller-manager, ros-jade-moveit-planners-ompl, ros-jade-moveit-ros-move-group, ros-jade-moveit-simple-controller-manager, ros-jade-robot-state-publisher, ros-jade-romeo-description, ros-jade-xacro
+Description: An automatically generated package with all the configuration and launch files for using the romeoH37 with the MoveIt Motion Planning Framework
