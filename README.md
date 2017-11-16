@@ -1,3 +1,26 @@
+## romeo_moveit_config (kinetic) - 0.2.8-0
+
+The packages in the `romeo_moveit_config` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release romeo_moveit_config --track kinetic --rosdistro kinetic` on `Thu, 16 Nov 2017 15:22:14 -0000`
+
+The `romeo_moveit_config` package was released.
+
+Version of package(s) in repository `romeo_moveit_config`:
+
+- upstream repository: https://github.com/ros-aldebaran/romeo_moveit_config.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `0.2.8-0`
+
+Versions of tools used:
+
+- bloom version: `0.6.1`
+- catkin_pkg version: `0.3.9`
+- rosdep version: `0.11.8`
+- rosdistro version: `0.6.2`
+- vcstools version: `0.1.39`
+
+
 ## romeo_moveit_config (jade) - 0.2.8-0
 
 The packages in the `romeo_moveit_config` repository were released into the `jade` distro by running `/usr/bin/bloom-release romeo_moveit_config --track jade --rosdistro jade` on `Thu, 16 Nov 2017 15:12:45 -0000`
